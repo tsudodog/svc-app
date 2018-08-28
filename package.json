@@ -1,7 +1,7 @@
 {
-  "name": "new",
+  "name": "svc-calc",
   "version": "1.0.0",
-  "description": "",
+  "description": "calculator app for wordpress eventually",
   "keywords": [],
   "main": "src/index.js",
   "dependencies": {
