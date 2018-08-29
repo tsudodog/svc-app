@@ -21,4 +21,4 @@ export default props => (
       <RightPane styles={styles} />
     </Grid>
   </Grid>
-);
+
