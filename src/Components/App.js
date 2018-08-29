@@ -22,6 +22,7 @@ export default class extends Component {
       }, {})
     );
   }
+
   handleCategorySelected = category => {
     this.setState({
       category
