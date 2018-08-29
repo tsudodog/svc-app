@@ -12,37 +12,52 @@ const styles = {
   }
 };
 
-export default ({ exercises }) => (
+
+export default ({
+  exercises,
+  category,
+  onSelect,
+  exercise: {
+    id,
+    title = "Welcome!",
+    description = "Please Select an exercise from the list on the left!"
+  }
+}) => (
   <Grid container>
     <Grid item sm>
       <Paper style={styles.Paper}>
-        {exercises.map(([group, exercises]) => (
-          <Fragment>
-            <Typography
-              variant="headline"
-              style={{ textTransform: "capitalize" }}
-            >
-              {group}
-            </Typography>
+        {exercises.map(
+          ([group, exercises]) =>
+            !category || category === group ? (
+              <Fragment key={group}>
+                <Typography
+                  variant="headline"
+                  style={{ textTransform: "capitalize" }}
+                >
+                  {group}
+                </Typography>
 
-            <List component="ul">
-              {exercises.map(({ title }) => (
-                <ListItem button>
-                  <ListItemText primary={title} />
-                </ListItem>
-              ))}
-            </List>
-          </Fragment>
-        ))}
+                <List component="ul">
+                  {exercises.map(({ id, title }) => (
+                    <ListItem button key={id} onClick={() => onSelect(id)}>
+                      <ListItemText primary={title} />
+                    </ListItem>
+                  ))}
+                </List>
+              </Fragment>
+            ) : null
+        )}
+
       </Paper>
     </Grid>
 
     <Grid item sm>
       <Paper style={styles.Paper}>
-        <Typography variant="display1">Welcome!</Typography>
-        <Typography variant="subheading">
-          Please Select an exercise from the list on the left!
-        </Typography>
+        <Typography variant="display1">{title}</Typography>
+        <Typography variant="display1" />
+        {description}
+        <Typography variant="subheading" />
+
       </Paper>
     </Grid>
   </Grid>
