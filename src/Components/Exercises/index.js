@@ -12,6 +12,7 @@ const styles = {
   }
 };
 
+
 export default ({
   exercises,
   category,
@@ -46,17 +47,18 @@ export default ({
               </Fragment>
             ) : null
         )}
+
       </Paper>
     </Grid>
 
     <Grid item sm>
       <Paper style={styles.Paper}>
         <Typography variant="display1">{title}</Typography>
-
         <Typography variant="display1" />
         {description}
         <Typography variant="subheading" />
+
       </Paper>
     </Grid>
   </Grid>
-);
+
