@@ -11,7 +11,7 @@ import {
 export default props => (
   <AppBar position="static">
     <Toolbar>
-      <Typography variant="healine" color="inherit">
+      <Typography variant="headline" color="inherit">
         Sunny Valley Creations
       </Typography>
     </Toolbar>
