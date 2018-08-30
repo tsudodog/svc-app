@@ -16,7 +16,7 @@ const styles = {
 export default ({
   exercises,
   category,
-  onSelect,
+           onSelect,
   exercise: {
     id,
     title = "Welcome!",

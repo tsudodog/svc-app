@@ -1,12 +1,5 @@
 import React from "react";
-import {
-  AppBar,
-  Toolbar,
-  Typography,
-  Button,
-  IconButton,
-  MenuIcon
-} from "material-ui";
+import { AppBar, Toolbar, Typography } from "material-ui";
 
 import Create from "../Exercises/Dialogs/Create";
 export default props => (

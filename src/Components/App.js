@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from "react";
 import { Header, Footer } from "./Layouts/index";
 import Exercises from "./Exercises/index";
+import FursuitCard from "./FursuitCard";
 import { muscles, exercises } from "../store";
 
 // THIS APP USES 1.0.0-beta-34 material-ui
@@ -44,12 +45,13 @@ export default class extends Component {
     return (
       <Fragment>
         <Header />
-        <Exercises
+        <FursuitCard />
+        {/* <Exercises
           exercise={exercise}
           exercises={exercises}
           category={category}
           onSelect={this.handleExerciseSelected}
-        />
+        /> */}
         <Footer
           category={category}
           muscles={muscles}
