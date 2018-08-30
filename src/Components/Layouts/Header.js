@@ -8,12 +8,14 @@ import {
   MenuIcon
 } from "material-ui";
 
+import Create from "../Exercises/Dialogs/Create";
 export default props => (
   <AppBar position="static">
     <Toolbar>
-      <Typography variant="healine" color="inherit">
+      <Typography variant="headline" color="inherit" style={{ flex: 1 }}>
         Sunny Valley Creations
       </Typography>
+      <Create />
     </Toolbar>
   </AppBar>
 );
