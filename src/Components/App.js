@@ -3,6 +3,9 @@ import { Header, Footer } from "./Layouts/index";
 import Exercises from "./Exercises/index";
 import { muscles, exercises } from "../store";
 
+// THIS APP USES 1.0.0-beta-34 material-ui
+// this app uses 1.0.0-beta-36 for material-ui-icons
+
 export default class extends Component {
   state = {
     exercises,

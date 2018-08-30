@@ -54,9 +54,11 @@ export default ({
     <Grid item sm>
       <Paper style={styles.Paper}>
         <Typography variant="display1">{title}</Typography>
+
         <Typography variant="display1" />
         {description}
         <Typography variant="subheading" />
+
 
       </Paper>
     </Grid>

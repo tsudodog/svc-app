@@ -23,4 +23,6 @@ export default ({ muscles, category, onSelect }) => {
       </Tabs>
     </Paper>
   );
+
 };
+
