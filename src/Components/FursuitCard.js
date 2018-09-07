@@ -70,7 +70,7 @@ class FursuitCard extends React.Component {
               <MoreVertIcon />
             </IconButton>
           }
-          title="Haskell"
+          title={this.props.fursuitName}
           subheader="February 15, 2018"
         />
         <CardMedia

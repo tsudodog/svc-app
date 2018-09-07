@@ -45,7 +45,17 @@ export default class extends Component {
     return (
       <Fragment>
         <Header />
-        <FursuitCard />
+        <div>
+          <FursuitCard
+            fursuitName="Haskell Hound"
+            fursuitDescription="Haskell is a concept collab between Syber (@MadeFurYou) and YellowFreaks."
+          />
+          <FursuitCard
+            fursuitName="Second Card"
+            fursuitDescription="Lorem Ipsum I guess"
+          />
+        </div>
+
         {/* <Exercises
           exercise={exercise}
           exercises={exercises}
