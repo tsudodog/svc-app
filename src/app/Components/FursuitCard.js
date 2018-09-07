@@ -14,7 +14,8 @@ import Typography from "@material-ui/core/Typography";
 import red from "@material-ui/core/colors/red";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import ChipBar from "./ChipBar";
-import haskellImage from "./../static/img/haskell.jpg";
+
+
 
 const styles = theme => ({
   card: {
@@ -75,7 +76,7 @@ class FursuitCard extends React.Component {
         />
         <CardMedia
           className={classes.media}
-          image={haskellImage}
+          image="https://s7d1.scene7.com/is/image/PETCO/puppy-090517-dog-featured-355w-200h-d"
           title="Haskell"
         />
         <CardContent>
