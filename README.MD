@@ -13,6 +13,12 @@ maybe this changed my git user
 
 small pull request change
 
+## Links to address future issues
+
+Will need infinate scrolling for card window
+
+[npm infinate scrolling](https://www.npmjs.com/package/react-infinite-scroller)
+
 ## Tutorials that Have helped me along the way
 
 I needed to convert from the react init script to web pack
