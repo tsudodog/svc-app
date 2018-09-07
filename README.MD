@@ -15,5 +15,5 @@ maybe this changed my git user
 
 
 
-#Copyright Notice
+# Copyright Notice
 Copyright (C) 2018, Alex Zalewski, All rights reserved.
