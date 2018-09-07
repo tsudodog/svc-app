@@ -2,6 +2,7 @@ import React, { Component, Fragment } from "react";
 import { Header, Footer } from "./Layouts/index";
 import Exercises from "./Exercises/index";
 import FursuitCard from "./FursuitCard";
+import FursuitDeck from "./FursuitDeck";
 import { muscles, exercises } from "../store";
 
 // THIS APP USES 1.0.0-beta-34 material-ui
@@ -45,16 +46,8 @@ export default class extends Component {
     return (
       <Fragment>
         <Header />
-        <div>
-          <FursuitCard
-            fursuitName="Haskell Hound"
-            fursuitDescription="Haskell is a concept collab between Syber (@MadeFurYou) and YellowFreaks."
-          />
-          <FursuitCard
-            fursuitName="Second Card"
-            fursuitDescription="Lorem Ipsum I guess"
-          />
-        </div>
+
+        <FursuitDeck />
 
         {/* <Exercises
           exercise={exercise}
