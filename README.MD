@@ -10,3 +10,10 @@ different change!
 test change
 I've gotten my work cpu set up
 maybe this changed my git user
+
+
+
+
+
+#Copyright Notice
+Copyright (C) 2018, Alex Zalewski, All rights reserved.
