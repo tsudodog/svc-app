@@ -48,7 +48,9 @@ export default class extends Component {
         <Header />
 
         <FursuitDeck />
-
+        <div>
+          <h1>Hello World</h1>
+        </div>
         {/* <Exercises
           exercise={exercise}
           exercises={exercises}

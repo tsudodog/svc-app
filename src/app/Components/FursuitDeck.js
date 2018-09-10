@@ -14,6 +14,22 @@ export default class FursuitDeck extends Component {
           fursuitName="Second Card"
           fursuitDescription="Lorem Ipsum I guess"
         />
+                <FursuitCard
+          fursuitName="Haskell Hound"
+          fursuitDescription="Haskell is a concept collab between Syber (@MadeFurYou) and YellowFreaks."
+        />
+        <FursuitCard
+          fursuitName="Second Card"
+          fursuitDescription="Lorem Ipsum I guess"
+        />
+                <FursuitCard
+          fursuitName="Haskell Hound"
+          fursuitDescription="Haskell is a concept collab between Syber (@MadeFurYou) and YellowFreaks."
+        />
+        <FursuitCard
+          fursuitName="Second Card"
+          fursuitDescription="Lorem Ipsum I guess"
+        />
       </div>
     );
   }

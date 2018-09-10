@@ -22,7 +22,9 @@ const styles = theme => ({
   card: {
     maxWidth: 400,
     marginTop: 20,
-    marginBottom: 20
+    marginBottom: 20,
+    marginLeft: 10,
+    marginRight: 10,
   },
   media: {
     height: 0,
@@ -77,7 +79,7 @@ class FursuitCard extends React.Component {
         />
         <CardMedia
           className={classes.media}
-          image={haskellImg}
+          image={"~public/static/img/haskell.jpg"}
           title="Haskell"
         />
         <CardContent>

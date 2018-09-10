@@ -29,7 +29,7 @@ function ChipBar(props) {
   const { classes } = props;
   return (
     <div className={classes.root}>
-      <Chip label="Basic Chip" color="primary" className={classes.chip} />
+      <Chip label="Follow Me Eyes" color="primary" className={classes.chip} />
       <Chip
         avatar={<Avatar>MB</Avatar>}
         label="Clickable Chip"
