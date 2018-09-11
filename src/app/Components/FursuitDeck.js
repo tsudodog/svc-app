@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import FursuitCard from "./FursuitCard";
 import styles from "./FursuitDeckStyle.css";
+import { fursuitData } from "./../../FursuitData";
 
 export default class FursuitDeck extends Component {
   render() {
@@ -10,26 +11,14 @@ export default class FursuitDeck extends Component {
           fursuitName="Haskell Hound"
           fursuitDescription="Haskell is a concept collab between Syber (@MadeFurYou) and YellowFreaks."
         />
-        <FursuitCard
-          fursuitName="Second Card"
-          fursuitDescription="Lorem Ipsum I guess"
-        />
-                <FursuitCard
-          fursuitName="Haskell Hound"
-          fursuitDescription="Haskell is a concept collab between Syber (@MadeFurYou) and YellowFreaks."
-        />
-        <FursuitCard
-          fursuitName="Second Card"
-          fursuitDescription="Lorem Ipsum I guess"
-        />
-                <FursuitCard
-          fursuitName="Haskell Hound"
-          fursuitDescription="Haskell is a concept collab between Syber (@MadeFurYou) and YellowFreaks."
-        />
-        <FursuitCard
-          fursuitName="Second Card"
-          fursuitDescription="Lorem Ipsum I guess"
-        />
+
+        {fursuitData.map(({ name, date, imageSource }) => (
+          <FursuitCard
+            fursuitName={name}
+            fursuitDescription="test"
+            imageSource={imageSource}
+          />
+        ))}
       </div>
     );
   }

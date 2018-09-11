@@ -16,15 +16,13 @@ import MoreVertIcon from "@material-ui/icons/MoreVert";
 import ChipBar from "./ChipBar";
 import haskellImg from "./../../public/static/img/haskell.jpg";
 
-
-
 const styles = theme => ({
   card: {
     maxWidth: 400,
     marginTop: 20,
     marginBottom: 20,
     marginLeft: 10,
-    marginRight: 10,
+    marginRight: 10
   },
   media: {
     height: 0,
@@ -79,7 +77,7 @@ class FursuitCard extends React.Component {
         />
         <CardMedia
           className={classes.media}
-          image={"~public/static/img/haskell.jpg"}
+          image={this.props.imageSource}
           title="Haskell"
         />
         <CardContent>
