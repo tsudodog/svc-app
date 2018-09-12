@@ -27,5 +27,11 @@ I still am uncertain weather or not i need to start my project with npm or yarn 
 
 [Word Press Plugin Manual](https://developer.wordpress.org/plugins/intro/)
 
+## Potential Future Help
+Listening and reacting to events in the browser 
+[reacting to events](https://css-tricks.com/working-with-events-in-react)
+
+Content Management Solutions
+[CMS example](https://hackernoon.com/how-i-built-a-content-management-system-for-a-react-app-in-one-day-269df17f5509)
 # Copyright Notice
 Copyright (C) 2018, Alex Zalewski, All rights reserved.

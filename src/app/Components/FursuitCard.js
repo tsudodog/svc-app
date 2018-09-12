@@ -14,17 +14,14 @@ import Typography from "@material-ui/core/Typography";
 import red from "@material-ui/core/colors/red";
 import MoreVertIcon from "@material-ui/icons/MoreVert";
 import ChipBar from "./ChipBar";
-import haskellImg from "./../../public/static/img/haskell.jpg";
-
-
 
 const styles = theme => ({
   card: {
-    maxWidth: 400,
+    maxWidth: 280,
     marginTop: 20,
     marginBottom: 20,
     marginLeft: 10,
-    marginRight: 10,
+    marginRight: 10
   },
   media: {
     height: 0,
@@ -75,21 +72,18 @@ class FursuitCard extends React.Component {
             </IconButton>
           }
           title={this.props.fursuitName}
-          subheader="February 15, 2018"
+          subheader={this.props.date}
         />
         <CardMedia
           className={classes.media}
-          image={"~public/static/img/haskell.jpg"}
+          image={this.props.imageSource}
           title="Haskell"
         />
         <CardContent>
-          <Typography component="p">
-            Haskell is a concept collab between Syber (@MadeFurYou) and
-            YellowFreaks.
-          </Typography>
+          <Typography component="p">{this.props.fursuitDescription}</Typography>
         </CardContent>
         <CardContent component="p">
-          <ChipBar />
+          <ChipBar chipSet={this.props.chips} />
         </CardContent>
       </Card>
     );

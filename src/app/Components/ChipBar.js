@@ -29,13 +29,17 @@ function ChipBar(props) {
   const { classes } = props;
   return (
     <div className={classes.root}>
-      <Chip label="Follow Me Eyes" color="primary" className={classes.chip} />
-      <Chip
+      {props.chipSet.map(({ label, color }) => (
+        <Chip label={label} color={color} className={classes.chip} />
+      ))}
+
+      {/* <Chip label="Follow Me Eyes" color="primary" className={classes.chip} /> */}
+      {/* <Chip
         avatar={<Avatar>MB</Avatar>}
         label="Clickable Chip"
         onClick={handleClick}
         className={classes.chip}
-      />
+      /> */}
     </div>
   );
 }
