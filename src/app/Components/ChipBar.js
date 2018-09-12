@@ -29,6 +29,10 @@ function ChipBar(props) {
   const { classes } = props;
   return (
     <div className={classes.root}>
+      {props.chips.map(({ label }) => (
+        <Chip label={label} color="primary" className={classes.chip} />
+      ))}
+
       <Chip label="Follow Me Eyes" color="primary" className={classes.chip} />
       <Chip
         avatar={<Avatar>MB</Avatar>}

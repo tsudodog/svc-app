@@ -73,7 +73,7 @@ class FursuitCard extends React.Component {
             </IconButton>
           }
           title={this.props.fursuitName}
-          subheader="February 15, 2018"
+          subheader={this.props.date}
         />
         <CardMedia
           className={classes.media}
@@ -81,13 +81,10 @@ class FursuitCard extends React.Component {
           title="Haskell"
         />
         <CardContent>
-          <Typography component="p">
-            Haskell is a concept collab between Syber (@MadeFurYou) and
-            YellowFreaks.
-          </Typography>
+          <Typography component="p">{this.props.fursuitDescription}</Typography>
         </CardContent>
         <CardContent component="p">
-          <ChipBar />
+          <ChipBar chips={this.props.chips} />
         </CardContent>
       </Card>
     );

@@ -7,16 +7,13 @@ export default class FursuitDeck extends Component {
   render() {
     return (
       <div id="deckTop" className={styles.Deck}>
-        <FursuitCard
-          fursuitName="Haskell Hound"
-          fursuitDescription="Haskell is a concept collab between Syber (@MadeFurYou) and YellowFreaks."
-        />
-
-        {fursuitData.map(({ name, date, imageSource }) => (
+        {fursuitData.map(({ name, date, description, imageSource, chips }) => (
           <FursuitCard
             fursuitName={name}
-            fursuitDescription="test"
+            fursuitDescription={description}
+            date={date}
             imageSource={imageSource}
+            chips={chips}
           />
         ))}
       </div>
