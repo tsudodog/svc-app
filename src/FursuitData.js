@@ -41,7 +41,8 @@ export const fursuitData = [
       "https://previews.dropbox.com/p/thumb/AALfShSwjd3luTGiQCYkmOIyaCO9ecUXUsRMAZmPoEGY584uefaMPIjpSKxx4oHmBqxOA6h18xkwdhXi2jpDIO0aHq5ottWpQWq_35Wv_OLOLKaP3HbE0Y5OYODoEVumgm4mu7U15DhpGYtAUlx_bXNMNSFUsuobVdgRWnXv3fx2ee0DHINtBpeBjW0TA7x3zOs/p.jpeg?size=1280x960&size_mode=3",
     chips: [
       { label: "Follow Me Eyes", color: "primary" },
-      { label: "Digitgrade", color: "secondary" }
+      { label: "Plantigrade", color: "none" },
+      { label: "Indoor Paws", color: "primary" }
     ]
   },
   {
