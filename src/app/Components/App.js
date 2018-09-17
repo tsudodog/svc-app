@@ -54,9 +54,9 @@ export default class extends Component {
       { category, exercise } = this.state;
     console.log(category);
     return (
-   
-        <Fragment>
-             <MuiThemeProvider muiTheme={theme}>
+
+      <Fragment>
+        <MuiThemeProvider theme={theme}>
           <Header />
 
           <FursuitDeck />
@@ -74,9 +74,9 @@ export default class extends Component {
             muscles={muscles}
             onSelect={this.handleCategorySelected}
           />
-            </MuiThemeProvider>
-        </Fragment>
-    
+        </MuiThemeProvider>
+      </Fragment>
+
 
     );
   }
