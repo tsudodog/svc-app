@@ -1,10 +1,5 @@
 import React from "react";
 import ReactDOM from "react-dom";
-
-import Button from "@material-ui/core/Button";
-import theme from "./customTheme.js";
-import { MuiThemeProvider } from "@material-ui/core/styles";
-
 import "./styles.css";
 
 // function App() {

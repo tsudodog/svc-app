@@ -15,7 +15,7 @@ export const fursuitData = [
     imageSource:
       "https://previews.dropbox.com/p/thumb/AAKD782gUDtSwFo0hg3mZMODTfDqOzhCyryDvLwfDn8gtpHjj1UThvFzDAc-0likgM3k59ov9eA75js3L65M8VRod2nCMOAfn00B7MG5ziArn9s7DC6VLXUGdteT9c5Db62lJB51MLEX090-NVvUojSp-3Hw-RYO1LsdYDw2cnzU6t5Z3TauKCkU8mpHFkaoEgYQX4RhQYinnTRAEyN8MVxBHhjWhVEoIPHPQ14_NxtHhQ/p.jpeg?size=1600x1200&size_mode=3",
     chips: [
-      { label: "Follow Me Eyes", color: "primary" },
+      { label: "Follow Me Eyes", color: "primary.light" },
       { label: "Digitgrade", color: "secondary" },
       { label: "Integrated Tail", color: "secondary" },
       { label: "Handsome Af", color: "secondary" },
