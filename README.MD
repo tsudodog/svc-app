@@ -27,6 +27,9 @@ I still am uncertain weather or not i need to start my project with npm or yarn 
 
 [Word Press Plugin Manual](https://developer.wordpress.org/plugins/intro/)
 
+## Resources
+[ESlint Rule handbook](https://eslint.org/docs/rules/)
+
 ## Potential Future Help
 Listening and reacting to events in the browser 
 [reacting to events](https://css-tricks.com/working-with-events-in-react)
