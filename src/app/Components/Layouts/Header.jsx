@@ -1,7 +1,7 @@
-import React from "react";
-import { AppBar, Toolbar, Typography } from "material-ui";
+import React from 'react';
+import { AppBar, Toolbar, Typography } from 'material-ui';
+import Create from '../Exercises/Dialogs/Create';
 
-import Create from "../Exercises/Dialogs/Create";
 export default props => (
   <AppBar position="static" color="secondary">
     <Toolbar>
