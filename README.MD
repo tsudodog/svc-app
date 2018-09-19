@@ -29,6 +29,8 @@ I still am uncertain weather or not i need to start my project with npm or yarn 
 
 ## Resources
 [ESlint Rule handbook](https://eslint.org/docs/rules/)
+[ESLint commandline](https://eslint.org/docs/user-guide/command-line-interface)
+[Airbnb error codes](https://github.com/airbnb/javascript#destructuring)
 
 ## Potential Future Help
 Listening and reacting to events in the browser 
